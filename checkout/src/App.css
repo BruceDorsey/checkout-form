@@ -6,3 +6,20 @@ h2 {
   text-align: center;
   color:red
 }
+h6 {
+  color:red
+}
+
+steps {
+  color:Red
+}
+#bannerimage {
+overflow-y: hidden;
+  padding-top: 16px;
+  width: 100%;
+  background-image: url(https://imgs.search.brave.com/wEgh9FEbabYRHl2fDzmy8hbcROiC3HolWGoA-XzpS8Q/rs:fit:1200:1100:1/g:ce/aHR0cHM6Ly9nbG9z/c2ltYWcuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE3LzA3/L2J1c3ktY3Jvd2Qt/dG9yb250by1zaG9w/cGluZy5qcGc);
+  height: 237px;
+  background-position: center;
+  background: linear-gradient(90deg, rgba(172, 159, 178, 0.4), rgba(185, 16, 168, 0.4)), url(https://imgs.search.brave.com/wEgh9FEbabYRHl2fDzmy8hbcROiC3HolWGoA-XzpS8Q/rs:fit:1200:1100:1/g:ce/aHR0cHM6Ly9nbG9z/c2ltYWcuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE3LzA3/L2J1c3ktY3Jvd2Qt/dG9yb250by1zaG9w/cGluZy5qcGc);
+mix-blend-mode: overlay;
+}
