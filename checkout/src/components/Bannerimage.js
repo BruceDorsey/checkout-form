@@ -4,9 +4,9 @@ import '/workspace/checkout-form/checkout/src/App.css';
 function Bannerimage () {
 
 return (
-    <header>
-    <header id="bannerimage"/>
-</header>
+    <div>
+    <div id="Bannerimage"/>
+</div>
 )
 }
 export default Bannerimage;

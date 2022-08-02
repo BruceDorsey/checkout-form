@@ -72,7 +72,8 @@ export default function Checkout() {
       >
         <Toolbar>
           <Typography variant="h6" color="inherit" noWrap>
-            <h2>Target</h2>
+            <img src='https://imgs.search.brave.com/4HZ_r8WYUDwdlgRI9d-B8zbZ0k_ScBSZju3YBWp2nuQ/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9jL2M1L1Rh/cmdldF9Db3Jwb3Jh/dGlvbl9sb2dvXyh2/ZWN0b3IpLnN2Zy8x/MjAwcHgtVGFyZ2V0/X0NvcnBvcmF0aW9u/X2xvZ29fKHZlY3Rv/cikuc3ZnLnBuZw' id="logo" />
+            <h4>TARGET</h4>
           </Typography>
         </Toolbar>
       </AppBar>

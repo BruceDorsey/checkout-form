@@ -2,8 +2,12 @@
   text-align: center;
 }
 
-h2 {
-  text-align: center;
+h4 {
+  position: absolute;
+  display:inline;
+  vertical-align: right;
+  top:1px;
+  right:2px;
   color:red
 }
 h6 {
@@ -13,13 +17,22 @@ h6 {
 steps {
   color:Red
 }
-#bannerimage {
-overflow-y: hidden;
-  padding-top: 16px;
-  width: 100%;
+
+
+#Bannerimage {
+  position: absolute;
+  min-height: 100%;
+  width:100%;
+  
   background-image: url(https://imgs.search.brave.com/wEgh9FEbabYRHl2fDzmy8hbcROiC3HolWGoA-XzpS8Q/rs:fit:1200:1100:1/g:ce/aHR0cHM6Ly9nbG9z/c2ltYWcuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE3LzA3/L2J1c3ktY3Jvd2Qt/dG9yb250by1zaG9w/cGluZy5qcGc);
-  height: 237px;
-  background-position: center;
-  background: linear-gradient(90deg, rgba(172, 159, 178, 0.4), rgba(185, 16, 168, 0.4)), url(https://imgs.search.brave.com/wEgh9FEbabYRHl2fDzmy8hbcROiC3HolWGoA-XzpS8Q/rs:fit:1200:1100:1/g:ce/aHR0cHM6Ly9nbG9z/c2ltYWcuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE3LzA3/L2J1c3ktY3Jvd2Qt/dG9yb250by1zaG9w/cGluZy5qcGc);
-mix-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#logo {
+  position:absolute;
+  width:50px;
+  height:50px;
+  top:10px;
+  vertical-align:text-top;
 }
